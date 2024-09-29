@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.header{
+    text-align: center;
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    height: calc(10vh);
+    background-color: white;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(10vh);
+    background-color: purple;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(20vh);
+    gap: 12px;
+}
+.card{
+    display: flex;
+    width: calc(33vw - 8px);
+    background-color: black;
+    height: calc(20vh);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(40vh);
+    gap:10px;
+}
+.contenido{
+    display: flex;
+    width: calc(60vw - 10px);
+    height: auto;
+    background-color: blueviolet;
+}
+.contenedor{
+    display: flex;
+    width: calc(40vw - 10px);
+    height: max-content;
+    flex-direction: column;
+    gap: 10px;
+}
+.barra{
+    display: flex;
+    width: calc(40vw - 10px);
+    height: calc(20vh - 5px);
+    background-color: blue;
+}
+.footer{
+    width: 100%;
+    height: calc(20vh - 60px);
+    background-color: white;
+}
